@@ -51,7 +51,7 @@ jobs:
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-      run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=gzh2001_minum_demo_57b3fd52-6dde-4f95-a2b7-d47ed09214a7 -Dsonar.projectName='minum_demo'
+      run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:5.6.0.6792:sonar -Dsonar.projectKey=gzh2001_minum_demo_57b3fd52-6dde-4f95-a2b7-d47ed09214a7 -Dsonar.projectName='minum_demo'
     # - name: Build with Maven
     #   run: mvn -B package --file pom.xml
 
