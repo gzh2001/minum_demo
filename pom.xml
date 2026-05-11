@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.renomad</groupId>
-  <artifactId>minum_usage_example_smallest</artifactId>
+  <artifactId>minum_demo</artifactId>
   <version>1.0.0</version>
 
-  <name>minum_usage_example_smallest</name>
+  <name>minum_demo</name>
 
   <!-- Minum requires Java 21 for its virtual threads -->
   <properties>
